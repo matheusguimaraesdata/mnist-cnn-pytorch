@@ -42,6 +42,17 @@ Ambos os modelos são treinados e avaliados no mesmo dataset, permitindo compara
 ---
 
 ## 📁 Estrutura do Projeto
+mnist-cnn-pytorch/
+│
+├── README.md              # Documentação do projeto
+├── requirements.txt       # Dependências do projeto
+├── .gitignore             # Arquivos e pastas ignorados pelo Git
+├── train.py               # Script de treinamento do modelo
+├── evaluate.py            # Script de avaliação do modelo treinado
+│
+├── models/                # Definições das arquiteturas de rede neural
+│   ├── cnn.py             # Modelo Convolutional Neural Network (CNN)
+│   └── mlp.py             # Modelo Multi-Layer Perceptron (MLP)
 
 ---
 
